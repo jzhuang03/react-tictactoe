@@ -51,14 +51,14 @@ ul {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 20px;
   padding: 0;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+  border: 1px solid #060707;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -69,6 +69,7 @@ body {
   padding: 0;
   text-align: center;
   width: 34px;
+  border-radius: 8px
 }
 
 .board-row:after {
@@ -79,7 +80,9 @@ body {
 
 .status {
   margin-bottom: 10px;
+  background-color: yellow;
 }
+
 .game {
   display: flex;
   flex-direction: row;
@@ -87,4 +90,27 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.square:hover {
+  background: pink;
+}
+
+button {
+  background-color: white;
+  /* Green */
+  border: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+button:active {
+  background-color: aquamarine;
+}
+
+.selectedmove {
+  font-weight: bold;
 }
