@@ -1,7 +1,11 @@
 
-/* In improving efficiency, we must add a parameter that takes in a value within each square of the grid board*/
+/* In improving efficiency, we must add a parameter/prop that takes in a value within each square of the grid board*/
 function Square({ value }) {
-  return <button className="square"> {value} </button>;
+  function handleClick() {
+    console.log("user clicked!");
+  }
+  return (<button className="square" onClick={handleClick}> {value} </button>);
+
 }
 
 /* This function makes the board accessible to other functions (export), and will be marked as the main function to be referred (default) */
