@@ -1,6 +1,5 @@
 import { useState } from 'react';
 
-
 /* Child component */
 function Square({ value, onSquareClick }) {
   return (<button className="square" onClick={onSquareClick}> {value} </button>);
@@ -101,10 +100,13 @@ export default function Game() {
     /* specify specific moves as a key since we are working with dynamic lists */
     return (
       <li key={move}>
-     <button onClick={() => jumpTo(move)} className={move === currentMove ? 'selectedmove' : ''}>
-        {description}
-      </button>
-            </li>
+        <button onClick={() => jumpTo(move)}
+          className={
+            move === currentMove ?
+              'selectedmove' : ''}>
+          {description}
+        </button>
+      </li>
     );
   });
 
