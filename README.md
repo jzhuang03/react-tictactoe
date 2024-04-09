@@ -1,6 +1,6 @@
 # Tic Tac Toe Game in React
 
-A simple Tic Tac Toe game implemented using React. It allows two players to take turns marking squares on a 3x3 grid until one player wins or the game ends in a draw.
+A simple Tic Tac Toe game implemented using React, HTML, CSS, and JS. It allows two players to take turns marking squares on a 3x3 grid until one player wins or the game ends in a draw.
 
 ## How it works
 - Each player takes turns clicking on an empty square to mark it with their symbol (X or O).
@@ -11,3 +11,6 @@ A simple Tic Tac Toe game implemented using React. It allows two players to take
 - Indicates the winner when the game is won.
 - Allows players to go back to previous moves throughout the game.
 - Records and displays the move history.
+
+## Credits & References:
+Based on the official React tutorial provided in the React documentation. 
