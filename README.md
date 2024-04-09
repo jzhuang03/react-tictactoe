@@ -11,6 +11,3 @@ A simple Tic Tac Toe game implemented using React, HTML, CSS, and JS. It allows 
 - Indicates the winner when the game is won.
 - Allows players to go back to previous moves throughout the game.
 - Records and displays the move history.
-
-## Credits & References:
-Based on the official React tutorial provided in the React documentation. 
